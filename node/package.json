@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "@types/cookie": "^0.4.0",
+    "@vtex/clients": "^2.13.0",
+    "co-body": "^6.0.0",
+    "cookie": "^0.4.1"
+  },
+  "devDependencies": {
+    "@types/co-body": "^0.0.3",
+    "@types/node": "12.x",
+    "@vtex/api": "6.43.0",
+    "eslint": "^6.3.0",
+    "eslint-config-vtex": "^11.0.0",
+    "prettier": "^1.18.2",
+    "typescript": "3.9.7"
+  },
+  "resolutions": {
+    "**/**/lodash": "^4.17.19"
+  },
+  "scripts": {
+    "lint": "tsc --noEmit --pretty && eslint -c .eslintrc.json --fix './**/*.ts'"
+  },
+  "version": "0.7.2"
+}
